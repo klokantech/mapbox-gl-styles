@@ -4,11 +4,11 @@
   "sources": {
     "mapbox": {
       "type": "vector",
-      "url": "mapbox://mapbox.mapbox-streets-v6"
+      "url": "http://osm2vectortiles.tileserver.com/v1.json"
     }
   },
-  "sprite": "mapbox://sprites/mapbox/basic-v8",
-  "glyphs": "mapbox://fonts/mapbox/{fontstack}/{range}.pbf",
+  "sprite": "sprites/basic-v8",
+  "glyphs": "glyphs/{fontstack}/{range}.pbf",
   "layers": [
     {
       "id": "background",
@@ -515,8 +515,7 @@
         ],
         "text-field": "{name_en}",
         "text-font": [
-          "Open Sans Semibold",
-          "Arial Unicode MS Bold"
+          "Open Sans Semibold"
         ],
         "text-max-width": 8,
         "text-anchor": "top",
@@ -553,8 +552,7 @@
         "symbol-placement": "line",
         "text-field": "{name_en}",
         "text-font": [
-          "Open Sans Semibold",
-          "Arial Unicode MS Bold"
+          "Open Sans Semibold"
         ],
         "text-transform": "uppercase",
         "text-letter-spacing": 0.1,
@@ -604,8 +602,7 @@
       "layout": {
         "text-field": "{name_en}",
         "text-font": [
-          "Open Sans Semibold",
-          "Arial Unicode MS Bold"
+          "Open Sans Semibold"
         ],
         "text-max-width": 6,
         "text-size": {
@@ -650,8 +647,7 @@
       "layout": {
         "text-field": "{name_en}",
         "text-font": [
-          "Open Sans Bold",
-          "Arial Unicode MS Bold"
+          "Open Sans Bold"
         ],
         "text-max-width": 10,
         "text-size": {
@@ -688,8 +684,7 @@
       "layout": {
         "text-field": "{name_en}",
         "text-font": [
-          "Open Sans Regular",
-          "Arial Unicode MS Regular"
+          "Open Sans Regular"
         ],
         "text-max-width": 10,
         "text-size": {

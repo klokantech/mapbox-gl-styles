@@ -3,17 +3,17 @@
   "name": "Satellite (hybrid)",
   "sources": {
     "mapbox": {
-      "url": "mapbox://mapbox.mapbox-streets-v6",
+      "url": "http://osm2vectortiles.tileserver.com/v1.json",
       "type": "vector"
     },
     "satellite": {
-      "url": "mapbox://mapbox.satellite",
+      "url": "http://tileserver.maptiler.com/swissimage25m.json",
       "type": "raster",
       "tileSize": 256
     }
   },
-  "sprite": "mapbox://sprites/mapbox/satellite-hybrid-v8",
-  "glyphs": "mapbox://fonts/mapbox/{fontstack}/{range}.pbf",
+  "sprite": "sprites/satellite-hybrid-v8",
+  "glyphs": "glyphs/{fontstack}/{range}.pbf",
   "layers": [
     {
       "id": "background",
@@ -70,8 +70,7 @@
       "layout": {
         "text-field": "{name_en}",
         "text-font": [
-          "Open Sans Bold",
-          "Arial Unicode MS Bold"
+          "Open Sans Bold"
         ],
         "text-transform": "uppercase",
         "text-max-width": 4,
@@ -135,8 +134,7 @@
       "layout": {
         "text-field": "{name_en}",
         "text-font": [
-          "Open Sans Bold",
-          "Arial Unicode MS Bold"
+          "Open Sans Bold"
         ],
         "text-transform": "uppercase",
         "text-max-width": 4,
@@ -200,8 +198,7 @@
       "layout": {
         "text-field": "{name_en}",
         "text-font": [
-          "Open Sans Bold",
-          "Arial Unicode MS Bold"
+          "Open Sans Bold"
         ],
         "text-transform": "uppercase",
         "text-max-width": 4,
@@ -657,8 +654,7 @@
       "layout": {
         "text-field": "{name_en}",
         "text-font": [
-          "Open Sans Semibold Italic",
-          "Arial Unicode MS Bold"
+          "Open Sans Semibold Italic"
         ],
         "text-max-width": 20,
         "text-letter-spacing": 0.2,
@@ -711,8 +707,7 @@
       "layout": {
         "text-field": "{name_en}",
         "text-font": [
-          "Open Sans Semibold Italic",
-          "Arial Unicode MS Bold"
+          "Open Sans Semibold Italic"
         ],
         "text-letter-spacing": 0.3,
         "text-line-height": 1.5,
@@ -762,8 +757,7 @@
       "layout": {
         "text-field": "{name_en}",
         "text-font": [
-          "Open Sans Semibold Italic",
-          "Arial Unicode MS Bold"
+          "Open Sans Semibold Italic"
         ],
         "text-letter-spacing": 0.25,
         "text-line-height": 1.8,
@@ -805,8 +799,7 @@
       "layout": {
         "text-transform": "uppercase",
         "text-font": [
-          "Open Sans Semibold",
-          "Arial Unicode MS Bold"
+          "Open Sans Semibold"
         ],
         "symbol-placement": "line",
         "text-padding": 0,
@@ -872,8 +865,7 @@
         "symbol-avoid-edges": false,
         "text-transform": "uppercase",
         "text-font": [
-          "Open Sans Semibold",
-          "Arial Unicode MS Bold"
+          "Open Sans Semibold"
         ],
         "symbol-placement": {
           "base": 1,
@@ -953,8 +945,7 @@
         "text-field": "{name}",
         "text-padding": 30,
         "text-font": [
-          "Open Sans Semibold Italic",
-          "Arial Unicode MS Bold"
+          "Open Sans Semibold Italic"
         ],
         "text-max-width": 6,
         "text-anchor": "center",
@@ -1010,8 +1001,7 @@
         "text-field": "{name}",
         "text-padding": 30,
         "text-font": [
-          "Open Sans Semibold Italic",
-          "Arial Unicode MS Bold"
+          "Open Sans Semibold Italic"
         ],
         "text-max-width": 6,
         "text-anchor": "top",
@@ -1078,8 +1068,7 @@
       "layout": {
         "text-field": "{name_en}",
         "text-font": [
-          "Open Sans Semibold Italic",
-          "Arial Unicode MS Bold"
+          "Open Sans Semibold Italic"
         ],
         "text-max-width": 6.5,
         "text-letter-spacing": 0.1,
@@ -1144,8 +1133,7 @@
       "layout": {
         "text-field": "{name_en}",
         "text-font": [
-          "Open Sans Regular",
-          "Arial Unicode MS Bold"
+          "Open Sans Regular"
         ],
         "text-max-width": 18,
         "text-padding": 40,
@@ -1208,8 +1196,7 @@
       "layout": {
         "text-field": "{name_en}",
         "text-font": [
-          "Open Sans Regular",
-          "Arial Unicode MS Bold"
+          "Open Sans Regular"
         ],
         "text-max-width": 18,
         "text-padding": 10,
@@ -1283,8 +1270,7 @@
       "layout": {
         "icon-image": "dot.sdf",
         "text-font": [
-          "Open Sans Regular",
-          "Arial Unicode MS Bold"
+          "Open Sans Regular"
         ],
         "text-padding": 1,
         "visibility": "visible",
@@ -1367,8 +1353,7 @@
       "layout": {
         "text-line-height": 1.2,
         "text-font": [
-          "Open Sans Bold",
-          "Arial Unicode MS Bold"
+          "Open Sans Bold"
         ],
         "symbol-placement": "point",
         "text-padding": 5,
@@ -1462,8 +1447,7 @@
         },
         "text-transform": "uppercase",
         "text-font": [
-          "Open Sans Bold",
-          "Arial Unicode MS Bold"
+          "Open Sans Bold"
         ],
         "visibility": "visible",
         "text-field": {
