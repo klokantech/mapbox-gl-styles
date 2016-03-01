@@ -23,7 +23,7 @@ This repo contains also cleanly compiled resources for using the GL styles local
     mkdir -p "glyphs/Open Sans Regular"
     build-glyphs open-sans/OpenSans-Regular.ttf "glyphs/Open Sans Regular"
 
-# Create sprites for JSON styles
+## Create sprites for JSON styles
 
     npm install -g spritezero-cli
     # unpack style release from https://github.com/mapbox/mapbox-gl-styles/releases
@@ -31,4 +31,4 @@ This repo contains also cleanly compiled resources for using the GL styles local
     spritezero bright-v8 bright-v8/_svg/
     spritezero --retina bright-v8@2x bright-v8/_svg/
 
-# Modify the JSON styles to link locally stored assets and your own vector tiles - check relevant commits
+Modify the JSON styles to link locally stored assets and your own vector tiles - check relevant commits
