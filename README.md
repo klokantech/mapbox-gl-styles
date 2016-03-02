@@ -1,11 +1,15 @@
 # OSM2VectorTiles GL Styles
 
-OSM2VectorTiles compatible GL styles for use in Mapbox GL JS or the Mapbox Mobile SDKs - derived from official MapBox GL Styles.
-(C) MapBox may be required on derivative designs (license not provided in the MapBox repo in the moment of fork).
+OSM2VectorTiles compatible GL styles for use in Mapbox GL JS or the Mapbox Mobile SDKs - derived from the official MapBox GL Styles.
 
-This repo contains also cleanly compiled resources for using the GL styles locally or from custom hosting. Bellow are described the steps.
+Online preview at: http://klokantech.github.io/osm2vectortiles-gl-styles/
 
-Use it with vector tiles which you can host by your own on your server. See documentation at: http://osm2vectortiles.org/.
+<a href="http://klokantech.github.io/osm2vectortiles-gl-styles/">
+![styles](https://cloud.githubusercontent.com/assets/59284/13459070/68f82de2-e071-11e5-8def-688db464f29a.gif)</a>
+
+This repo contains also cleanly compiled resources for using the GL styles locally or from custom hosting. Bellow are described the steps to build these.
+
+Use it with vector tiles hosted on your own server. See documentation at: http://osm2vectortiles.org/.
 
 How to compile MapBox GL JS and fonts and styles for offline use:
 
