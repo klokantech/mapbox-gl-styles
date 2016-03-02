@@ -5,6 +5,10 @@ OSM2VectorTiles compatible GL styles for use in Mapbox GL JS or the Mapbox Mobil
 
 This repo contains also cleanly compiled resources for using the GL styles locally or from custom hosting. Bellow are described the steps.
 
+Use it with vector tiles which you can host by your own on your server. See documentation at: http://osm2vectortiles.org/.
+
+How to compile MapBox GL JS and fonts and styles for offline use:
+
 ## Compile MapBox GL JS from source code
 
     npm install -g browserify
@@ -31,4 +35,7 @@ This repo contains also cleanly compiled resources for using the GL styles local
     spritezero bright-v8 bright-v8/_svg/
     spritezero --retina bright-v8@2x bright-v8/_svg/
 
-Modify the JSON styles to link locally stored assets and your own vector tiles - check relevant commits
+## Customise the JSON style for OSM2VectorTiles
+
+Modify the JSON styles to link locally stored assets and your own vector tiles - check relevant commit:
+https://github.com/klokantech/osm2vectortiles-gl-styles/commit/9b9d3ff0dd50e5a1d5647dbb33bb3a8bde183031
