@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8' />
+    <title>Streets with pitch and bearing</title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script src='mapbox-gl.js'></script>
+    <link href='mapbox-gl.css' rel='stylesheet' />
+    <style>
+        body { margin:0; padding:0; }
+        #map { position:absolute; top:0; bottom:0; width:100%; }
+    </style>
+</head>
+<body>
+<div id='map'></div>
+<script>
+var map = new mapboxgl.Map({
+    container: 'map', // container id
+    style: 'styles/streets-v8.json', //stylesheet location
+    center: [8.5516, 47.3673], // starting position
+    zoom: 14 // starting zoom
+});
+function rotator(){
+  map.easeTo({bearing:60, duration:5000, pitch:55, zoom:14});
+  window.setTimeout(function(){
+    map.easeTo({bearing:180, duration:8000, pitch:0, zoom:10});
+    window.setTimeout(function(){
+      map.easeTo({bearing:220, duration:7000, pitch:70, zoom:13});
+      window.setTimeout(function(){
+        rotator()
+      }, 5000)
+    }, 8000)
+  }, 7000)
+}
+map.on('load', function(){
+  rotator()
+})
+</script>
+</body>
+</html>
